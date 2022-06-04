@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    width: 940px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/*表頭設定*/
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 220px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navinfo{
+    display: flex;
+    justify-content: space-around;
+}
+.navinfo li{
+    margin: 0 30px;
+}
+.navinfo a{
+    color: #3F5D45;
+    text-align: center;
+    text-decoration: none;
+}
+.navinfo a:hover{
+    background-color: #eaf0ed;
+}
+.nav img{
+    display: block;
+    margin-left: 50px;
+    padding-bottom: 4px;
+}
+/*banner設定*/
+.banner{
+    margin-bottom: 60px;
+}
+/*main設定*/
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 300px;
+}
+.menu h3{
+    background-color: #3f5d45;
+    text-align: center;
+    color: #eaf0ed;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.menu a{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #3f5d45;
+    text-align: center;
+    border: 1px solid #eaf0ed;
+}
+.menu a:hover{
+    color: #3f5d45;
+    background: #eaf0ed;
+}
+/*card設定*/
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 620px;
+}
+.cardList{
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.img{
+    vertical-align: middle;
+}
+.choice{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: #eaf0ed;
+    background-color: #3f5d45;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+.love{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.cardinfo{
+    display: flex;
+}
+.cardinfo .name{
+    width: 173px;
+    font-size: 20px;
+    color: #3F5D45;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #eaf0ed;
+}
+.cardinfo .price{
+    width: 127px;
+    padding: 14px;
+    font-size: 20px;
+    text-align: center;
+    color: #3F5D45;
+    border: 1px solid #eaf0ed;
+}
+.cart{
+    width: 300px;
+    background-color: #eaf0ed;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #3F5D45;
+    font-size: 24px;
+}
+.cart:hover{
+    background-color: #3f5d45;
+    color: #eaf0ed;
+}
+.pagebottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.page_control{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.page_control:hover{
+    background-color: #eaf0ed
+}
+.pagebottom ul{
+    display: flex;
+}
+.pagebottom ul a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3F5D45;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eaf0ed;
+}
+.pagebottom ul a:hover{
+    background-color: #3f5d45;
+    color: #eaf0ed;
+}
